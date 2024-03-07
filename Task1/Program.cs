@@ -2,7 +2,7 @@
 int Promt(string text)
 {
     Console.WriteLine(text);
-    return int.Parse(Console.ReadLine());
+    return int.Parse(Console.ReadLine()!);
 }
 int[,] SymmetricMatrix(int [,] matrix)
 {
